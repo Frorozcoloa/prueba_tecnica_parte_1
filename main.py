@@ -77,7 +77,11 @@ def gets_csv(path: Path)->List[Path]:
 # Solo se ejecuta desde la consola, llamando el archivo
 if __name__ == "__main__":
 
-    creates_tables()
+    if not (path/database).exists():
+        # las bases de datos se crean, si no está el archivo sqlite creado
+        creates_tables()
+    
+    # Caso contrario, se sobre escribiran los datos en las tables
     path_csv = gets_csv(path)
     dict_df = {}
     # pasamos todos los archivos por la función save values
