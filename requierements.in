@@ -1,3 +1,11 @@
 pandas
 sqlalchemy
 openpyxl
+wordcloud
+scikit-learn
+category_encoders
+pyjanitor
+seaborn
+missingno
+association-metrics
+xgboost

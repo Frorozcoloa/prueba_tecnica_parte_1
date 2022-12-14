@@ -67,10 +67,4 @@ requierements.in --> Nombre de las librerías a usar
 ### Cuarto punto
 
 La prueba fue realizada en linux y aunque es un requisito hacer el análisis en excel. Este lo voy en python.
-
-1. Ideación en Miro
-2. Análisis exploratorio
-3. Modelo propuesto
-4. Ideas
-
-## Conclusioness
+Invitamos a leer el notebook analisis_exploratorio
